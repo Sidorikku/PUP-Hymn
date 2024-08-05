@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+header{
+    background-color: #800000;
+    color: white;
+    padding: 10px 0;
+}
+
+.container {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #f8f8f8
+}
+
+h1{
+    color: white;
+    margin-left: 5px;
+    font-family: serif;
+}
+
+img{
+    position: relative;
+    align-items: center;
+}
+
+h2{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 1.7%;
+    font-size: 27px;
+    font-family: serif;
+    text-align: center;
+    color: rgb(208, 25, 25);
+}
+
+
+.lyrics-box {
+    position: relative;
+    top: 0%; 
+    left: 0%; 
+    background-color: rgba(212, 212, 212, 0); 
+    border-radius: 10px;
+    padding: 50px;
+    overflow: hidden; 
+    margin-top: 20px;
+    height: 150px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    background-color: #f8f8f8
+}
+
+.lyrics-container {
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    height: 150px;
+    background-color: #f8f8f8
+
+}
+
+
+marquee{  
+        margin-left: 25px;
+        margin-top: 0px;
+        margin-bottom: 15px;
+        font-size: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        background-color: #f8f8f8
+    }
+
+footer{
+    font-family: serif;
+    font-size: 16px;
+    text-align: center;
+    border-top: 1px solid grey;
+    position:sticky;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    margin-left:30px;
+    overflow: hidden; 
+}
+
+audio{
+    margin-left: 0%;
+    margin-top: 2%;
+}
+
+.previous-line, .next-line {
+    opacity: 0.5; 
+    margin: 1px;
+}
